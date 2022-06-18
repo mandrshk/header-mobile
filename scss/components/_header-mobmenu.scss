@@ -1,11 +1,13 @@
 .header {
     border-bottom: 1px solid #ececec;
     position: relative;
+
 }
 
 
 
 .header__div-nav{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,14 +58,12 @@
     width: 100%;
     padding: 48px 40px;
     min-height: 700px;
-    display: block;
-    display: flex;
     flex-direction: column;
     background-color: var(--primary-white-color);
     
     &.is-open{
         display: block;
-        display: flex;
+        
     }
 }
 
