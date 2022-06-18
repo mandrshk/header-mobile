@@ -1,5 +1,5 @@
 .header {
-    border-bottom: 1px solid #ececec;
+    border-bottom: 10px solid #ececec;
     position: relative;
 
 }
@@ -9,7 +9,7 @@
 .header__div-nav{
     
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
 }
 
@@ -30,6 +30,7 @@
     display: inline-block;
     margin: 0;
     padding: 0;
+    margin-left: auto;
     border: none;
     background-color: transparent;
 }

@@ -359,7 +359,7 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 10px solid #ececec;
   position: relative;
 }
 
@@ -367,9 +367,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -394,6 +391,7 @@ img {
   display: inline-block;
   margin: 0;
   padding: 0;
+  margin-left: auto;
   border: none;
   background-color: transparent;
 }
