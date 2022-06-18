@@ -1,9 +1,9 @@
 .footer-form {
-    min-width: 250px;
+    min-width: 200px;
 
     @include mq(not-desktop) {
         margin-bottom: 60px;
-        min-width: 450px;
+        
         align-items: center;
     }
 
@@ -44,7 +44,8 @@
             display: block;
                 margin-right: auto;
                 margin-left: auto;
-            width: 450px;
+            max-width: 450px;
+            width: 100%;
             margin-bottom: 20px;
     }
      @include mq(desktop) {
