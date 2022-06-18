@@ -3,21 +3,20 @@
     position: relative;
 }
 
-.mob-header{
-    
+
+
+.header__div-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-
-
 .navbar__logo-webstudio {
+    display: inline-block;
     font-family: 'Raleway';
     font-weight: 700;
        font-size: 24px;
         line-height: 28px;
-
-        
-
 }
 
 .navbar__logospan {
@@ -26,6 +25,7 @@
 
 .menu-button{
     display: inline-flex;
+    display: inline-block;
     margin: 0;
     padding: 0;
     border: none;
@@ -56,12 +56,14 @@
     width: 100%;
     padding: 48px 40px;
     min-height: 700px;
+    display: block;
     display: flex;
     flex-direction: column;
     background-color: var(--primary-white-color);
     
     &.is-open{
         display: block;
+        display: flex;
     }
 }
 

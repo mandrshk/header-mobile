@@ -363,7 +363,20 @@ img {
   position: relative;
 }
 
+.header__div-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .navbar__logo-webstudio {
+  display: inline-block;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 24px;
@@ -378,6 +391,7 @@ img {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  display: inline-block;
   margin: 0;
   padding: 0;
   border: none;
@@ -404,6 +418,7 @@ img {
   width: 100%;
   padding: 48px 40px;
   min-height: 700px;
+  display: block;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -416,6 +431,9 @@ img {
 
 .menu-container.is-open {
   display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media screen and (max-width: 767.98px) {
