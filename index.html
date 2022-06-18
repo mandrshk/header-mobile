@@ -27,15 +27,41 @@
 
     <header class="header">
       <div class="header__div-nav container">
-        <!-- <a
-            href="#"
-            class="navbar__logo-webstudio"
+        <a
+          href="#"
+          class="navbar__logo-webstudio"
+        >
+          <span class="navbar__logospan">Web</span
+          >Studio</a
+        >
+        <button
+          type="button"
+          class="menu-button is-open"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        >
+          <svg
+            width="40"
+            height="40"
+            aria-label="Переключатель мобильного меню"
           >
-            <span class="navbar__logospan"
-              >Web</span
-            >Studio</a
-          > -->
-        <div class="menu-container">
+            <use
+              class="icon-cross"
+              href="./images/icons.svg#icon-close-menu"
+            ></use>
+            <use
+              class="icon-menu"
+              href="./images/icons.svg#icon-burger-menu"
+            ></use>
+          </svg>
+        </button>
+
+        <div
+          class="menu-container is-open"
+          id="menu-container"
+          data-menu
+        >
           <nav class="navbar">
             <ul class="sitenav">
               <li class="sitenav__item">
@@ -60,59 +86,55 @@
             </ul>
           </nav>
           <ul class="auth-nav">
-            <li
-              class="auth-nav__item auth-nav__phone"
-            >
+            <li class="auth-nav__item">
               <a
                 href="tel:+380961111111"
-                class="auth-nav__link"
+                class="auth-nav__link auth-nav__phone"
                 aria-label="Phone Icon"
               >
-                <svg
-                  class="auth-nav__icon"
-                  width="10"
-                  height="16"
-                >
-                  <use
-                    href="./images/icons.svg#icon-phone"
-                  ></use>
-                </svg>
                 +38 096 111 11 11</a
               >
             </li>
             <li
-              class="auth-nav__item auth-nav__mail"
+              class="auth-nav__item auth-nav__item-mail"
             >
               <a
                 href="mailto:info@devstudio.com"
-                class="auth-nav__link"
+                class="auth-nav__link auth-nav__mail"
                 aria-label="Mail Icon"
               >
-                <svg
-                  class="auth-nav__icon"
-                  width="16"
-                  height="12"
-                >
-                  <use
-                    href="./images/icons.svg#icon-mail"
-                  ></use>
-                </svg>
                 info@devstudio.com</a
               >
             </li>
           </ul>
           <ul class="social-networks">
             <li class="social-networks__item">
-              <a href="">Instagram</a>
+              <a
+                href=""
+                class="social-networks__link"
+                >Instagram</a
+              >
             </li>
             <li class="social-networks__item">
-              <a href="">Twitter</a>
+              <a
+                href=""
+                class="social-networks__link"
+                >Twitter</a
+              >
             </li>
             <li class="social-networks__item">
-              <a href="">Facebook</a>
+              <a
+                href=""
+                class="social-networks__link"
+                >Facebook</a
+              >
             </li>
             <li class="social-networks__item">
-              <a href="">LinkedIn</a>
+              <a
+                href=""
+                class="social-networks__link"
+                >LinkedIn</a
+              >
             </li>
           </ul>
         </div>
