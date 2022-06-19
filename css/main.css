@@ -399,33 +399,33 @@ img {
   display: none;
 }
 
-.menu-button.is-open .icon-cross {
+.menu-button.is-open .icon-menu {
   display: block;
 }
 
-.menu-button.is-open .icon-menu {
+.menu-button.is-open .icon-cross {
   display: none;
 }
 
 .menu-container {
+  display: none;
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  padding: 48px 40px;
+  padding: 0 40px;
   min-height: 700px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   background-color: var(--primary-white-color);
-  display: none;
 }
 
 .menu-container.is-open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -511,92 +511,6 @@ img {
   width: 100%;
   border-bottom: 1px solid #ececec;
   padding: 16px 15px;
-}
-
-.menu-container {
-  padding: 48px 40px;
-  min-height: 700px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-@media screen and (max-width: 767.98px) {
-  .sitenav {
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 47px;
-    letter-spacing: 0.02em;
-  }
-}
-
-.sitenav__item {
-  margin-top: 32px;
-}
-
-.sitenav__item:first-child {
-  margin-top: 0;
-}
-
-.sitenav__link--opened {
-  color: var(--accent-color);
-}
-
-.auth-nav {
-  margin-top: auto;
-}
-
-.auth-nav__phone {
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 40px;
-  color: var(--accent-color);
-  letter-spacing: 0.02em;
-}
-
-.auth-nav__mail {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  letter-spacing: 0.02em;
-  color: var(--secondary-color);
-}
-
-.auth-nav__item-mail {
-  margin-top: 32px;
-}
-
-.social-networks {
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height, or 122% */
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.social-networks {
-  margin-top: 64px;
-}
-
-.social-networks__item {
-  padding: 0 10px;
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
-  color: var(--accent-color);
-}
-
-.social-networks__item:last-child {
-  border: none;
-}
-
-.social-networks__link {
-  color: var(--accent-color);
 }
 
 .hero {

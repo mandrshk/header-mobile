@@ -29,87 +29,87 @@
 //     color: var(--accent-color);
 // }
 
-.menu-container{
-    padding: 48px 40px;
-    min-height: 700px;
-    display: flex;
-    flex-direction: column;
-}
+// .menu-container{
+//     padding: 48px 40px;
+//     min-height: 700px;
+//     display: flex;
+//     flex-direction: column;
+// }
 
- .sitenav{
-    @include mq(mobile-only) {
-        font-weight: 500;
-        font-size: 40px;
-        line-height: 47px;
-        letter-spacing: 0.02em;
-    }
-    }
+//  .sitenav{
+//     @include mq(mobile-only) {
+//         font-weight: 500;
+//         font-size: 40px;
+//         line-height: 47px;
+//         letter-spacing: 0.02em;
+//     }
+//     }
 
-    .sitenav__item{
-        margin-top: 32px;
+//     .sitenav__item{
+//         margin-top: 32px;
 
-        &:first-child{
-            margin-top: 0;
-        }
-    }
+//         &:first-child{
+//             margin-top: 0;
+//         }
+//     }
 
-.sitenav__link--opened{
-    color: var(--accent-color);
-}
+// .sitenav__link--opened{
+//     color: var(--accent-color);
+// }
 
-.auth-nav{
-    margin-top: auto;
-}
+// .auth-nav{
+//     margin-top: auto;
+// }
 
-.auth-nav__phone{
-    font-weight: 500;
-    font-size: 34px;
-    line-height: 40px;
-    color: var(--accent-color);
+// .auth-nav__phone{
+//     font-weight: 500;
+//     font-size: 34px;
+//     line-height: 40px;
+//     color: var(--accent-color);
 
-    letter-spacing: 0.02em;
-}
+//     letter-spacing: 0.02em;
+// }
 
-.auth-nav__mail {
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-letter-spacing: 0.02em;
-color: var(--secondary-color);
-}
+// .auth-nav__mail {
+// font-weight: 500;
+// font-size: 24px;
+// line-height: 28px;
+// letter-spacing: 0.02em;
+// color: var(--secondary-color);
+// }
 
-.auth-nav__item-mail{
+// .auth-nav__item-mail{
 
-margin-top: 32px;
+// margin-top: 32px;
 
-}
+// }
 
-.social-networks{
-    font-size: 18px;
-        line-height: 22px;
-        /* identical to box height, or 122% */
+// .social-networks{
+//     font-size: 18px;
+//         line-height: 22px;
+//         /* identical to box height, or 122% */
     
-        letter-spacing: 0.02em;
-        color: var(--accent-color);
-        display: flex;
-}
+//         letter-spacing: 0.02em;
+//         color: var(--accent-color);
+//         display: flex;
+// }
 
-.social-networks{
-    margin-top: 64px;
-}
+// .social-networks{
+//     margin-top: 64px;
+// }
 
-.social-networks__item{
-    padding: 0 10px;
-    border-right: 1px solid rgba(33, 33, 33, 0.2);;
-    color: var(--accent-color);
-    &:last-child{
-        border: none;
-    }
-}
+// .social-networks__item{
+//     padding: 0 10px;
+//     border-right: 1px solid rgba(33, 33, 33, 0.2);;
+//     color: var(--accent-color);
+//     &:last-child{
+//         border: none;
+//     }
+// }
 
-.social-networks__link{
-    color: var(--accent-color);
-}
+// .social-networks__link{
+//     color: var(--accent-color);
+// }
 // .sitenav {
 //     display: flex;
 //     margin-left: 93px;

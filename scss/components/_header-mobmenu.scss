@@ -9,7 +9,6 @@
 .header__div-nav {
 
     display: flex;
-
     align-items: center;
 }
 
@@ -26,8 +25,7 @@
 }
 
 .menu-button {
-    display: inline-flex;
-    
+    display: inline-flex; 
     margin: 0;
     padding: 0;
     margin-left: auto;
@@ -41,29 +39,30 @@
     display: none;
 }
 
-.menu-button.is-open .icon-cross {
+.menu-button.is-open .icon-menu {
     display: block;
 }
 
-.menu-button.is-open .icon-menu {
+.menu-button.is-open .icon-cross{
     display: none;
 }
 
 
 .menu-container {
 
-    
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    padding: 48px 40px;
+    padding: 0 40px;
     min-height: 700px;
-    flex-direction: column;
+    
     background-color: var(--primary-white-color);
-    display: none;
+    
     &.is-open {
         display: flex;
+        flex-direction: column;
     }
 }
 
