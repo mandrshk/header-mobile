@@ -388,7 +388,6 @@ img {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  display: inline-block;
   margin: 0;
   padding: 0;
   margin-left: auto;
@@ -409,7 +408,6 @@ img {
 }
 
 .menu-container {
-  display: none;
   position: absolute;
   top: 100%;
   left: 0;
@@ -421,10 +419,13 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: var(--primary-white-color);
+  display: none;
 }
 
 .menu-container.is-open {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media screen and (max-width: 767.98px) {
