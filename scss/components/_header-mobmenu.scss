@@ -1,13 +1,18 @@
 .header {
+    width: 100%;
     border-bottom: 1px solid #ececec;
     position: relative;
+}
 
+.header__nav{
+    @include mq(mobile-only) {
+        display: none;
+    }
 }
 
 
 
 .header__div-nav {
-
     display: flex;
     align-items: center;
 }
@@ -39,7 +44,7 @@
     display: none;
 }
 
-.menu-button.is-open .icon-menu {
+.menu-button.is-open  .icon-menu{
     display: block;
 }
 
